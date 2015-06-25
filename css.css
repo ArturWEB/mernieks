@@ -7,3 +7,12 @@
 .mernieciba li {
   display: inline-block;
 }
+
+.header-wrap {
+  background-color: #473a2d;
+}
+
+.header-wrap header {
+  width:1200px;
+  margin: 0 auto;
+}
