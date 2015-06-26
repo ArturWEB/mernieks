@@ -1,3 +1,6 @@
+*{
+  font-family: "Open Sans", sans-serif; ;
+}
 .menu li {
   display: inline-block;
 }
@@ -15,4 +18,29 @@
 .header-wrap header {
   width:1200px;
   margin: 0 auto;
+}
+
+.servis-block {
+   width: 400px;
+   display: inline-block;
+   vertical-align: top;
+
+ }
+.servis-block img {
+  float: left;
+margin-right: 20px ;
+}
+.servis-block .text {
+  overflow: hidden;
+
+
+}
+.servis-block  ul {
+  margin-left: 0 ;
+  padding-left: 0 ;
+  list-style-type: none;
+}
+
+.servis-block h3 {
+  margin-top: 0
 }
