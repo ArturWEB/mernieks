@@ -1,23 +1,50 @@
 *{
   font-family: "Open Sans", sans-serif; ;
 }
+nav, nav ul {
+  float: right;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu, .lang {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 34px;
+}
 .menu li {
   display: inline-block;
+  margin-left: 10px
 }
+
 .lang li {
   display: inline-block;
+  margin-left: 10px
 }
 .mernieciba li {
   display: inline-block;
 }
+.separator {
+  float: right;
+  height: 62px; border-left: 1px solid #fff;
+    margin-top: 15px;
+    margin-left: 10px;
 
+}
 .header-wrap {
   background-color: #473a2d;
 }
 
 .header-wrap header {
+  background-size: cover;
   width:1200px;
   margin: 0 auto;
+}
+.slideshow {
+  background-image: url(slide-show.jpg);
+  height:595px;
+  width:auto;
 }
 
 .servis-block {
