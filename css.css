@@ -44,11 +44,43 @@ nav a {
 .slideshow {
   background-image: url(slide-show.jpg);
   height:595px;
-  width:auto;
+  position: relative;
+
+
 }
 
+.blockslide {
+    position: absolute;
+    top: 235px ;
+    left: 183px ;
+    text-align: left;
+    opacity: 0.7;
+    width: 395px
+
+}
+.blockslide h1,
+.blockslide h4 {
+  background: rgba(0,0,0,0.5) ;
+  color : #fff;
+  padding: 15px;
+  display: inline-block;
+  margin: 10px 0;
+}
+.fon {
+  background-image: url(fon.png);
+  text-align: center;
+}
+
+.blockslide h1 {
+  font-size: 40px;
+}
+
+.blockslide h4 {
+  font-size: 22px;
+}
 .servis-block {
    width: 400px;
+
    display: inline-block;
    vertical-align: top;
 
