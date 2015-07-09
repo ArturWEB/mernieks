@@ -68,7 +68,8 @@ nav a {
 }
 .fon {
   background-image: url(fon.png);
-  text-align: center;
+
+  font-size: 0;
 }
 
 .blockslide h1 {
@@ -83,6 +84,7 @@ nav a {
 
    display: inline-block;
    vertical-align: top;
+   font-size: 1rem;
 
  }
 .servis-block img {
@@ -98,8 +100,34 @@ margin-right: 20px ;
   margin-left: 0 ;
   padding-left: 0 ;
   list-style-type: none;
+
 }
 
 .servis-block h3 {
   margin-top: 0
+}
+
+.servis-block li::after{
+    content: "";
+    display: block;
+
+    border-bottom: 1px solid #c8c6c2;
+    width: 15%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.pakalpojumi1 {
+  width: 1200px;
+  margin: auto;
+
+
+
+}
+
+.pakalpojumi2 {
+  border-bottom: 1px dashed #736357 ;
+  text-align: center;
+  color:#95782d;
+  padding-bottom: 10px;
 }
