@@ -121,8 +121,6 @@ margin-right: 20px ;
   width: 1200px;
   margin: auto;
 
-
-
 }
 
 .pakalpojumi2 {
@@ -130,4 +128,81 @@ margin-right: 20px ;
   text-align: center;
   color:#95782d;
   padding-bottom: 10px;
+}
+
+.izcenojumi {
+  overflow: hidden;
+  width: 1200px;
+  margin: auto;
+
+}
+
+.table {
+  width: 565px;
+
+}
+.table table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.table1 {
+float: left;
+
+}
+
+.table2 {
+float: right;
+}
+.table td {
+  padding: 6px;
+}
+.table tr:nth-child(2n) {
+  background: #f2ebe1;
+}
+.table1 tr:last-child  {
+  background: transparent;
+}
+.table tr:first-child {
+  border-bottom: 1px solid #dfd9cf
+}
+.linija {
+  border-bottom: 1px solid #dfd9cf
+}
+.table th:first-child {
+  text-align: left;
+}
+.pakalpojumi3 {
+  border-bottom: 1px dashed #736357 ;
+  text-align: center;
+  color:#95782d;
+  padding-bottom: 10px;
+}
+.parmums {
+  border-bottom: 1px dashed #c7a457 ;
+  text-align: center;
+  color:#c7a457;
+  padding-bottom: 10px;
+}
+.fon2 {
+  background-image: url(bg.jpg);
+
+  font-size: 0;
+}
+.man {
+  width: 565px;
+
+}
+
+.edgars {
+  float: left;
+
+}
+.tomass {
+  float: right;
+}
+.piple {
+  overflow: hidden;
+  width: 1200px;
+  margin: auto;
+
 }
